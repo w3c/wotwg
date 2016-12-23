@@ -18,7 +18,7 @@ try {
       for (var i = 0; i < items.length; i++) {
         var item = items.item(i);
         var desc = item.querySelector("description").textContent;
-        if (desc.indexOf("Web Performance") != -1) {
+        if (desc.indexOf("Web of Things") != -1) {
           var link =  item.querySelector("link").textContent;
           var article = document.createElement("article");
           article.appendChild(document.createElement("h3"));
