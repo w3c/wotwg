@@ -1,27 +1,17 @@
-# W3C Web Performance Working Group
+# W3C Web of Things Working Group
 
-https://www.w3.org/webperf/
+https://www.w3.org/WoT/WG/
 
 ## Specifications
 
 GitHub repositories are linked from each specification.
+(actual links to be done)
 
-* https://w3c.github.io/hr-time/
-* https://w3c.github.io/performance-timeline/
-* https://w3c.github.io/resource-timing/
-* https://w3c.github.io/navigation-timing/
-* https://w3c.github.io/user-timing/
-* https://w3c.github.io/page-visibility/
-* https://w3c.github.io/requestidlecallback/
-* https://w3c.github.io/beacon/
-* https://w3c.github.io/resource-hints/
-* https://w3c.github.io/preload/
+* https://w3c.github.io/(specs-name)/
 
-Web Performance tests can be found in [web-platforms-tests][WPT].
+Web of Things tests are to be added to [web-platforms-tests][WPT].
 
-More information on our [dashboard][db].
-
-## Contributing to the Web Performance Repositories
+## Contributing to the Web of Things Repositories
 
 Use the standard fork, branch, and pull request workflow to propose changes to the specification. Please make branch names informative - by including the issue or bug number for example.
 
@@ -31,8 +21,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md), about licensing contributions.
 
 ## History
 
-This repository used to contain editor's drafts from the Web Performance Working Group.
-
+TBD
 
 [WPT]: https://github.com/w3c/web-platform-tests/
-[db]: https://www.w3.org/wiki/Web_Performance/Publications
+[db]: https://www.w3.org/WoT/WG/wiki/ (TBD)
