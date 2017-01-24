@@ -135,65 +135,54 @@
           is as follows;</p>
       </div>
       <section>
-        <h2>Server Connector</h2>
-        <p>server Connector accepts requests from networked clients through internet
-          and sends responses to clients.</p>
-        Examples of protocols between WoT servient and clients include HTTP,
-        CoAP, MQTT and so on.<br />
-        REST style API can be defined in front of the Server Connector module. This
-        API is named “WoT Interface”. WoT Interface is the subject of the standardization
-        activity. <br />
+        <h2>Thing Description</h2>
+        <p>Metadata and declarations of thing’s capabilities (e.g., possible interactions).<br />
+             Providing the definition of different machine-understandable vocabulary sets as well as 
+serialization formats.
+        </p>
       </section>
       <section>
-        <h2>Client Connector</h2>
-        <p>WoT Servient can access other web servers and/or WoT servients
-          through internet.<br />
-          In these cases a Client Connector module communicates with other servers via
-          protocols such as HTTP.<br />
-          When Client Connector modules calls other WoT servients not legacy web
-          servers, the API is provided through WoT Interface.<br />
+        <h2>Scripting API</h2>
+        <p>APIs for interactions with Things and reactions/handlers to provide the functionality
+of a Thing.<br />
+       Scripting APISs can be classified into 4 categories as follows; <br />
+       1) Client API which supports consuming Things <br />
+       2) Server API which supports exposing Things <br />
+       3) Discovery API which supports abstract method to access discovery mechanism <br />
+       4) Security option which includes authentication, authorization and secure communications <br />
+
+      Terminology "Security API" is not independent from other APIs and it is included in other APIs with
+     parameters and so on. <br />
         </p>
+      </section>
+      <section>
+        <h2>Binding Templates</h2>
+        <p>Standard binding templates for most common protocols which used in Protocol Binding block.
+Supported transfer communication patterns are push, pull, pub-sub and bi-directional messaging. e.g.,  REST-based protocols such as HTTP and CoAP, pub-sub protocols such as MQTT, and raw channel-based protocols such as WebSocket.
+</p>
+      </section>
+      <section>
+        <h2>Security and Privacy</h2>
+        <p>Cross-cutting mechanism for security and privacy over Thing Description, Scripting API and Protocol Bindings <br />
+Thing Description and Scripting API will support both transport and object security using  best practices.
+Binding Templates will support the use of appropriate for the protocols they map to.
+It includes requirements of network and web-based technologies for implementation.
+</p>
+      </section>
+      <section>
+        <h2>Local Hardware</h2>
+        <p>When Thing is included inside of WoT Servient as local hardware, then implemented runtime environment accesses the thing through proprietary APIs such as W3C Device API, and so on. <br />
+This block is out of scope of WoT standardization, but sometimes touched on as implementation practices and/or liaison with other W3C WG and SDOs.</p>
       </section>
       <section>
         <h2>Legacy Communication</h2>
-        <p> As described before, currently, there are many IoT services and
-          standards proposed by many organizations.<br />
-          In order to communicate such legacy devices, WoT servient includes
-          legacy communication module for such protocols as Echonet Lite, QNX,
-          ONVIF, DLNA and so on.<br />
-         Legacy Communication inludes proprietly protocol binding mechanism and resource management defined by each protocol managing organizations.<br />
-        </p>
-      </section>
-      <section>
-        <h2>Protocol Binding</h2>
-        <p>Protocol Binding block converts interactions with devices using information in Things Description in accordance with lower layer protocols such as HTTP, CoAP, MQTT and so on.</p>
-      </section>
-      <section>
-        <h2>Resource Model</h2>
-        <p>Resource Model Provides a common abstraction across the different protocols.<br />
-        Just like the Web, it allows to identify and address interaction points with URIs.</p>
-      </section>
-      <section>
-        <h2>Things Description</h2>
-        <p>Things Description declares providing API name, parameter type and so on.<br />
-        External client refers this description to call WoT Interface.
-        </p>
+        <p>When Thing is outside of WoT Servient and is connected to WoT servient with legacy IoT protocols, then implemented runtime environment utilizes Legacy Communication such as Echonet Lite and so on through proprietary APIs.
+Especially, constraint devices such as simple sensors with low speed CPU can be accessed through simple protocols by gateway which has higher spec resources. Then WoT servient for the sensors can be implemented in gateway on behalf of each sensor hardware utilizing Legacy Communication block.
+This block is out of scope of WoT standardization, but sometimes touched on as implementation practices and/or liaison with other W3C WG and SDOs.</p>
       </section>
       <section>
         <h2>App Script</h2>
-        <p>AppScripts implements application logic in a modular and portable way.<br />
-        It can access local hardware, locally connected legacy devices, and remote things through the WoT Interface.<br />
-        For this, the runtime environment must provide the Scripting API (Client, Server, Discovery and Proprietly(if any)).
-        </p>
-      </section>
-      <section>
-        <h2>Runtime Environment</h2>
-        <p>Runtime Environment provides the Scriptiong API<br />
-        Sever API is the API for creating server functions which accepts request through WoT Interface from other clients.<br />
-        Client API is the API for creating client functions which utilizes resource model, protocol binding and so on.
-        Client API sometimes includes Physical API to manpulate I2C etc.<br />
-        Discovery API is utility API to discover other Servers and/or WoT Servients.
-        </p>
+        <p>As client and/or Server, logic is implemented in App Script which utilizing WoT Scripting API and proprietary API mainly used to access Thing.</p>
       </section>
     </section>
     <section>
