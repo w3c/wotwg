@@ -368,7 +368,7 @@ In this case, a temperature sensor is connected to WoT Servient 1 and control ag
         This chapter tries to list up informative mapping samples.</p>
       <section>
         <h2> Simple Use case</h2>
-        <div  style="text-align: center;"><img  src="simple_use_case2.png"  alt="Simple use case"
+        <div  style="text-align: center;"><img  src="browser-wot.png"  alt="Simple use case"
 
              title="Simple use case"  style="width: 640px;" /></div>
         <p  style="text-align: center;">Fig.10 Simple use case</p>
@@ -391,7 +391,7 @@ In this case, a temperature sensor is connected to WoT Servient 1 and control ag
       <section>
         <h2>WoT servient on device<br />
         </h2>
-        <div  style="text-align: center;"><img  src="servient_on_device_itself2.png"
+        <div  style="text-align: center;"><img  src="Wot-on-device.png"
 
              alt="WoT Servient on device itself"  title="WoT Servient on device itself"
 
@@ -412,7 +412,7 @@ In this case, a temperature sensor is connected to WoT Servient 1 and control ag
           which bridges between internet and legacy device without any
           intermediate hardware.<br />
         </p>
-        <div  style="text-align: center;"><img  src="servient_on_smartphone_a2.png"
+        <div  style="text-align: center;"><img  src="Wot-on-smartphone-A.png"
 
              alt="WoT servient on Smartphone (A)"  title="WoT servient on Smartphone (A)" /></div>
         <p  style="text-align: center;">Fig.12 WoT servient on Smartphone (A)</p>
@@ -421,11 +421,20 @@ In this case, a temperature sensor is connected to WoT Servient 1 and control ag
           browser which has user experience to provide interaction, the the
           other is WoT servient which might not have any user interface and it
           provides gateway functionality to access legacy device.</p>
-        <div  style="text-align: center;"><img  src="servient_on_smartphone_b2.png"
+        <div  style="text-align: center;"><img  src="Wot-on-smartphone-B.png"
 
              alt="WoT servient on Smartphone (B)"  title="WoT servient on Smartphone (B)" /></div>
-        <p  style="text-align: center;">Fig.13 WoT servient on Smartphone (B)</p>
-        <p  style="text-align: left;">Fig.13 shows another example of WoT
+        <p  style="text-align: center;">Fig.13 WoT servient on Smartphone (A)</p>
+        <p  style="text-align: left;">Fig.13 shows an example of WoT servient on
+          Smartphone. In Fig.13, there are independent 2 software modules, one is
+          browser which has user experience to provide interaction, the the
+          other is WoT servient which might not have any user interface and it
+          provides gateway functionality to access legacy device.</p>
+        <div  style="text-align: center;"><img  src="Wot-on-smartphone-C.png"
+
+             alt="WoT servient on Smartphone (C)"  title="WoT servient on Smartphone (C)" /></div>
+        <p  style="text-align: center;">Fig.14 WoT servient on Smartphone (B)</p>
+        <p  style="text-align: left;">Fig.14 shows another example of WoT
           servient mapped on smartphone.<br />
           In this mapping case, a browser is expanded to include WoT servient
           functionality. Then there is no need for an app script to call web
@@ -433,20 +442,20 @@ In this case, a temperature sensor is connected to WoT Servient 1 and control ag
       </section>
       <section>
         <h2>WoT servient on Smart Home Hub</h2>
-        <div  style="text-align: center;"><img  src="servient_on_smart_home_hub2.png"
+        <div  style="text-align: center;"><img  src="Wot-on-smarthomehub.png"
 
              alt="WoT servient on smart home hub"  title="WoT servient on smart home hub"
 
              style="width: 640px;" /></div>
-        <p  style="text-align: center;">Fig.14 WoT servient on smart home hub</p>
-        <p>Fig.14 shows an example of WoT servient on smart home hub.<br />
+        <p  style="text-align: center;">Fig.15 WoT servient on smart home hub</p>
+        <p>Fig.15 shows an example of WoT servient on smart home hub.<br />
           Smart home hub is usually introduced home automation and/or home
           energy management solution.<br />
           Looking at consumer electronics, there are very wide variety of
           physical communication format such as WiFi, 802.15.4g, Bluetooth low
           energy, HDPLC and so on. In order to normalize those variations,
           almost all home systems introduce a smart home hub.<br />
-          In Fig.14, WoT servient wraps the difference of communicating legacy
+          In Fig.15, WoT servient wraps the difference of communicating legacy
           devices and provides to other clients a universal devices accessing
           method.<br />
           In home inside, as the communication method between WoT servient on
@@ -462,28 +471,28 @@ In this case, a temperature sensor is connected to WoT Servient 1 and control ag
           So, controlling devices at home from outside the house, WoT servient
           from a smart home hub should be mapped to a globally accessible cloud server.<br />
         </p>
-        <div  style="text-align: center;"><img  src="servient_on_cloud_server2.png"
+        <div  style="text-align: center;"><img  src="Wot-on-cloud.png"
 
              alt="WoT Servient on Cloud Server"  title="WoT Servient on Cloud Server"
 
              style="width: 640px;" /></div>
-        <p  style="text-align: center;">Fig.15 WoT Servient on Cloud Server</p>
-        <p  style="text-align: left;">Fig.15 shows an example of WoT servient on
+        <p  style="text-align: center;">Fig.16 WoT Servient on Cloud Server</p>
+        <p  style="text-align: left;">Fig.16 shows an example of WoT servient on
           a cloud server.<br />
-          In Fig.15 case, a browser accesses WoT servient on the cloud Server named
+          In Fig.16 case, a browser accesses WoT servient on the cloud Server named
           “platform”. This WoT servient provides Things Description through
           internet globally. So, wherever browser user is, he/she can access
           this WoT servient.<br />
           WoT servient on "platform" accepts browser and/or other application’s request
           through HTTP, CoAP and so on. Then WoT Servient on the cloud server
           finds out the route to access the WoT servient on a smart home hub. In
-          Fig.15 case, Things Description of WoT Servient on cloud server is
+          Fig.16 case, Things Description of WoT Servient on cloud server is
           mirror of that on the smart home hub.<br />
           After finding out the route, WoT Servient on the cloud server transfer
           browser’s request to WoT Servient on the smart home hub.<br />
           After that, the smart home hub processes the request according to
-          Fig.14 case.<br />
-          In this Fig.15 case, the smart home hub works as<br />
+          Fig.15 case.<br />
+          In this Fig.16 case, the smart home hub works as<br />
           a)    Unifier of very wide variety of legacy communication protocols
           both in the physical and logical view;<br />
           b)    Firewall between internet as WoT Servient on the cloud server
