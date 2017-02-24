@@ -4,10 +4,12 @@ https://www.w3.org/WoT/WG/
 
 ## Specifications
 
-GitHub repositories are linked from each specification.
-(actual links to be done)
+GitHub repositories are linked from each specification:
 
-* https://w3c.github.io/(specs-name)/
+* https://w3c.github.io/wot-architecture/
+* https://w3c.github.io/wot-thing-description/
+* https://w3c.github.io/wot-scripting-api/
+* https://w3c.github.io/wot-binding-templates/
 
 Web of Things tests are to be added to [web-platforms-tests][WPT].
 
