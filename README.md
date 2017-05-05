@@ -13,6 +13,13 @@ GitHub repositories are linked from each specification:
 
 Web of Things tests are to be added to [web-platforms-tests][WPT].
 
+## Repositories
+
+* https://github.com/w3c/wot-architecture/
+* https://github.com/w3c/wot-thing-description
+* https://github.com/w3c/wot-scripting-api
+* https://github.com/w3c/wot-binding-templates
+
 ## Contributing to the Web of Things Repositories
 
 Use the standard fork, branch, and pull request workflow to propose changes to the specification. Please make branch names informative - by including the issue or bug number for example.
@@ -23,7 +30,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md), about licensing contributions.
 
 ## History
 
-TBD
+See the [WoT IG repository](https://github.com/w3c/wot).
 
 [WPT]: https://github.com/w3c/web-platform-tests/
 [db]: https://www.w3.org/WoT/WG/wiki/ (TBD)
