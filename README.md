@@ -19,6 +19,7 @@ Web of Things tests are to be added to [web-platforms-tests][WPT].
 * https://github.com/w3c/wot-thing-description
 * https://github.com/w3c/wot-scripting-api
 * https://github.com/w3c/wot-binding-templates
+* https://github.com/w3c/wot-security
 
 ## Contributing
 
