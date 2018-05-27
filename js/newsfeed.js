@@ -1,4 +1,4 @@
-// Quick n' dirty news feed
+// Quick and dirty news feed
 (function () {
 try {
   var attempts = 0;
