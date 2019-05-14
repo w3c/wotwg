@@ -93,6 +93,10 @@ main nav li {
   border-bottom: 1px solid #ccc;
 }
 
+main nav table {
+  width: 100%;
+}
+
 aside {
   margin-top: 1rem;
   margin-bottom: 1rem;
