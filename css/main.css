@@ -15,8 +15,11 @@ h1 {
 h2, h3, h4, h5, h6 {
   font-weight: 300;
 }
-h2 { font-size: 1.3rem;}
-h3 { font-size: 1.1rem;}
+h2 {
+  font-size: 1.3rem;
+  border-bottom: 3px solid #eee;
+}
+h3 { font-size: 1.1rem; }
 ul, ul li {
   display: block;
   margin: 0; padding: 0;
