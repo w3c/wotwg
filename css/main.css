@@ -111,12 +111,11 @@ figcaption {
   text-align: left; font-style: italic; font-size: small;
 }
 #mission {
-  font-style: italic;
-  margin-bottom: 1rem;
   border-bottom: 1px solid #ddd;
 }
 
 #mission p {
+  font-style: italic;
   margin-left: 2rem;
   margin-right: 2rem;
 }
