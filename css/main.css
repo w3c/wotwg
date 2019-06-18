@@ -38,10 +38,7 @@ a:hover, a:focus {
 
 /*** header ***/
 header {
-  background: #005A9C;
-  background-image: url(/Icons/w3c_home_white_transp.png);
-  background-repeat: no-repeat;
-  background-position: 0 50%;
+  background: #005A9C url("/Icons/w3c_home_white_transp.png") no-repeat left middle;
   color: white;
   padding-left: 68px;
   margin: 0;
