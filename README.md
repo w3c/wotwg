@@ -1,29 +1,10 @@
-# W3C Web of Things Working Group
+# W3C Web of Things Working Group &ndash; [Web Site](https://www.w3.org/WoT/WG/) Sources
 
-https://www.w3.org/WoT/WG/
-
-## Specifications
-
-GitHub repositories are linked from each specification:
-
-* https://w3c.github.io/wot-architecture/
-* https://w3c.github.io/wot-thing-description/
-* https://w3c.github.io/wot-scripting-api/
-* https://w3c.github.io/wot-binding-templates/
-
-Web of Things tests are to be added to [web-platforms-tests][WPT].
-
-## Repositories
-
-* https://github.com/w3c/wot-architecture/
-* https://github.com/w3c/wot-thing-description
-* https://github.com/w3c/wot-scripting-api
-* https://github.com/w3c/wot-binding-templates
-* https://github.com/w3c/wot-security
+This repository contains the sources for https://www.w3.org/WoT/WG/
 
 ## Contributing
 
-Editorial changes that improve the readability of the spec or correct spelling or grammatical mistakes are welcome, and may be done directly from the web interface of github.
+Editorial changes that improve the readability of the pages or correct spelling or grammatical mistakes are welcome, and may be done directly from the Web interface of GitHub.
 However, in general changes should be done by pull requests. Please follow the following guidelines for the contribution workflow:
 - Fork the repository, then clone the fork.
 - Create a local branch in your fork, push commits there, then make a pull request. After the pull request is merged, the local branch can be optionally deleted.
@@ -37,10 +18,3 @@ Note that the tool expects the "raw" link to the files, for instance this file's
 - The preferred way to merge a pull request is by creating a merge commit, or by squashing (select the option from the pull-down menu right to the merge button). To keep full history, rebase merge is fine if commits are well defined and formatted.
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md), about licensing contributions.
-
-## History
-
-See the [WoT IG repository](https://github.com/w3c/wot).
-
-[WPT]: https://github.com/w3c/web-platform-tests/
-[db]: https://www.w3.org/WoT/WG/wiki/ (TBD)
