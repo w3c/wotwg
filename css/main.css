@@ -70,6 +70,10 @@ main {
   margin-right: 1rem;
 }
 
+main table {
+  width: 100%;
+}
+
 main > * {
   padding-right: 0;
   padding-left: 0;
@@ -93,10 +97,6 @@ main nav li {
   border-bottom: 1px solid #ccc;
 }
 
-main nav table {
-  width: 100%;
-}
-
 aside {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -118,12 +118,13 @@ figcaption {
 }
 
 article {
-  margin-top: 1rem;
-  border-top: 2px solid #ddd;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
 }
 
 article h3 {
-  padding-top: 0.5ex; margin: 0;
+  padding-top: 0.5ex;
+  margin: 0;
   width: 100%;
 }
 
