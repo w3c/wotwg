@@ -109,17 +109,20 @@ figcaption {
 #mission {
   font-style: italic;
   margin-bottom: 1rem;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ddd;
 }
 
 #mission p {
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 article {
   margin-bottom: 1rem;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ddd;
+}
+article:last-child {
+  border-bottom: none;
 }
 
 article h3 {
@@ -137,7 +140,7 @@ footer {
   padding-right: 0.5rem;
   padding-left: 0.5rem;
   padding-top: 0.5rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
   text-align: left;
   display: flex;
   flex-direction: row;
@@ -162,7 +165,7 @@ footer a, footer a:visited, footer a:focus, footer a:hover {
   main nav {
     order: 0;
     border-top: none;
-    border-right: 1px solid #ccc;
+    border-right: 2px solid #ccc;
   }
   main nav h3 {
     text-align: right;
@@ -173,16 +176,6 @@ footer a, footer a:visited, footer a:focus, footer a:hover {
   aside {
     max-width: 20em;
     border-top: none;
-    border-left: 1px solid #ccc;
-  }
-  article {
-    margin-top: 2rem;
-    border-top: 0.5ex solid #ddd;
-  }
-  footer {
-    box-sizing: border-box;
-    width: 100%;
-    margin-top: 5rem;
-    padding-bottom: 2rem;
+    border-left: 2px solid #ccc;
   }
 }
